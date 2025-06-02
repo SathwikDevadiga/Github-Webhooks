@@ -1,4 +1,4 @@
-GitHub Webhook Receiver with Flask, MongoDB & Docker (No-Docker Version)
+GitHub Webhook Receiver with Flask, MongoDB & Docker 
 
 This project captures GitHub events (push, pull_request, merge) via webhooks, stores them in MongoDB, and displays them in real-time using a minimal UI. Built using Flask, MongoDB, and JavaScript.
 
