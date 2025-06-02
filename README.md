@@ -46,7 +46,7 @@ Getting Started
 git clone https://github.com/YOUR_USERNAME/webhook-repo.git
 cd webhook-repo
 docker-compose up --build
-
+```
  #OR
 
 1. Install Requirements
@@ -59,7 +59,7 @@ cd webhook-repo
 python3 -m venv venv
 source venv/bin/activate        # Windows: venv\Scripts\activate
 pip install -r requirements.txt
-
+```
 2. Run MongoDB locally (default URI: mongodb://localhost:27017)
 
 3. Start Flask App
