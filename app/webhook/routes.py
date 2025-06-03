@@ -16,7 +16,7 @@ def receiver():
         #handling push request
         if event == "push":
             data = {
-                "request_id": data["after"],
+                "request_id": payload["after"],
                 "action": "push",
                 "author": payload['pusher']['name'],
                 "to_branch": payload['ref'].split('/')[-1],
